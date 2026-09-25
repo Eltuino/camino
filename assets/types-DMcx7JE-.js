@@ -1,0 +1,1 @@
+var e=(e,t)=>e.levelName?.[t]??`${e.name} ${t}`,t=(t,n)=>{let r=e(t,n);return r.includes(n)?r:`${r} · ${n}`};export{e as n,t};
