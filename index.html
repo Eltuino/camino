@@ -4,17 +4,26 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
     <meta name="theme-color" content="#0b1120" />
+    <!-- Fondo claro (Ajustes → Pantalla): se aplica aquí, antes del primer pintado. La clave y el color son los de src/lib/theme.ts. -->
+    <script>
+      try {
+        if (localStorage.getItem('camino-fondo') === 'claro') {
+          document.documentElement.setAttribute('data-theme', 'light')
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#f1f5f9')
+        }
+      } catch (e) { /* sin almacenamiento: el fondo oscuro */ }
+    </script>
     <title>Camino</title>
-    <script type="module" crossorigin src="/camino/assets/index-DMqicMZt.js"></script>
-    <link rel="modulepreload" crossorigin href="/camino/assets/text-D2Y7r4rI.js">
+    <script type="module" crossorigin src="/camino/assets/index-8nPxxZmZ.js"></script>
+    <link rel="modulepreload" crossorigin href="/camino/assets/text-CetO4SYq.js">
     <link rel="modulepreload" crossorigin href="/camino/assets/audio-texts-ChLPvoAV.js">
-    <link rel="modulepreload" crossorigin href="/camino/assets/kit-BChB-1Nn.js">
-    <link rel="modulepreload" crossorigin href="/camino/assets/planner-B55R8fzO.js">
+    <link rel="modulepreload" crossorigin href="/camino/assets/kit-HTsqVZ__.js">
+    <link rel="modulepreload" crossorigin href="/camino/assets/planner-Cvj4b42f.js">
     <link rel="modulepreload" crossorigin href="/camino/assets/types-DMcx7JE-.js">
-    <link rel="modulepreload" crossorigin href="/camino/assets/report-DIZdq0-G.js">
-    <link rel="modulepreload" crossorigin href="/camino/assets/parts-a4V38FJw.js">
-    <link rel="modulepreload" crossorigin href="/camino/assets/Pron-Gz17kaOd.js">
-    <link rel="stylesheet" crossorigin href="/camino/assets/index-BWNBF7yP.css">
+    <link rel="modulepreload" crossorigin href="/camino/assets/report-bfRs8Wa6.js">
+    <link rel="modulepreload" crossorigin href="/camino/assets/parts-W697sWJw.js">
+    <link rel="modulepreload" crossorigin href="/camino/assets/Pron-DoSNvts3.js">
+    <link rel="stylesheet" crossorigin href="/camino/assets/index-Bf08ajEI.css">
   <link rel="manifest" href="/camino/manifest.webmanifest">
 <meta name="theme-color" content="#0b1120">
 <link rel="icon" href="/camino/favicon.ico" sizes="48x48">
