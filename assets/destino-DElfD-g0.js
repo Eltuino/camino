@@ -1,1 +1,0 @@
-var e=`Camino`,t=`/camino/icon.svg`;export{e as n,t};

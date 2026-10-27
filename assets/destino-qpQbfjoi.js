@@ -1,0 +1,1 @@
+var e=`Camino`,t=`/camino/icon.svg`,n=[`de`,...``.split(`,`).map(e=>e.trim()).filter(Boolean)],r=`https://sinacento.com`.replace(/\/+$/,``);export{r as i,e as n,n as r,t};
